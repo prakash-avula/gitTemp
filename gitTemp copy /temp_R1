@@ -1,0 +1,12 @@
+a=(e d c f b a s)
+
+echo "Original array: ${a[@]}"
+a_sort=($(for i in "${a[@]}"; do
+		echo $i;
+	done | sort ))
+echo "sorted array: ${a_sort[@]}"
+
+# test line
+
+# new line added
+
