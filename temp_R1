@@ -6,3 +6,4 @@ a_sort=($(for i in "${a[@]}"; do
 	done | sort ))
 echo "sorted array: ${a_sort[@]}"
 
+#change done from temp/gitTemp
